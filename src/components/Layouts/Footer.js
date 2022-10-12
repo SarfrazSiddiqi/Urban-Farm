@@ -12,7 +12,7 @@ function Footer() {
   }
   const handleSubmit =(e) =>{
     e.preventDefault()
-    fetch('https://apple-products-5cd30-default-rtdb.asia-southeast1.firebasedatabase.app/emails.json',
+    fetch('https://urban-farm-13408-default-rtdb.asia-southeast1.firebasedatabase.app/emails.json',
     {
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
