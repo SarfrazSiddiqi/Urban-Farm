@@ -1,0 +1,15 @@
+
+.alert-style{
+ background-color: #0c4c37;
+  color: #fff;
+  padding: 0.6rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+@media (max-width:475px) {
+    .alert-style{
+        width:100%;
+        margin-left: -69px;
+    }
+}

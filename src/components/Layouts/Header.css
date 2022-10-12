@@ -1,0 +1,53 @@
+.navigation-bar{
+    background-color: #fff6f4;
+    padding: 1rem 2rem;
+}
+.navigation-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation-brand a{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none !important;
+}
+.navingation-list {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+.navingation-list a{
+    text-decoration: none;
+    color: #020202;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.navingation-list a:hover{
+    color: #008c5d;
+    transition: 0.3s;
+}
+.login-icon{
+    margin: 10px;
+}
+.count-plus{
+    margin: 2px;
+    text-decoration: none;
+    color: #0c4c37;
+}
+
+
+@media (max-width:475px) {
+    .navigation-bar {
+       width: 100%;
+    }
+    .navigation-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navigation-brand a {
+        margin-left: -143px;
+    }
+}
